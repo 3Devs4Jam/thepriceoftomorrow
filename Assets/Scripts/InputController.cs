@@ -8,8 +8,7 @@ public class InputController : MonoBehaviour
     public float speed = 3f;
     public float moveX;
     public float moveY;
-    public float faceX;
-    public float faceY;
+    public float face; // 0 - up, 1 - right, 2 - down, 3 - left
 
     private Animator anim;
 
@@ -39,8 +38,7 @@ public class InputController : MonoBehaviour
             playerMoving = true;
         }
 
-        anim.SetFloat("MoveX", faceX);
-        anim.SetFloat("MoveY", faceY);
+        anim.SetFloat("Face", face);
         anim.SetBool("PlayerMoving", playerMoving);
     }
 
@@ -81,15 +79,33 @@ public class InputController : MonoBehaviour
         Vector2 mousePos = Camera.main.ScreenToWorldPoint(Input.mousePosition);
         Vector2 objectPos = new Vector2(transform.position.x, transform.position.y);
 
-        Vector2 difference = objectPos - mousePos;
+        Vector2 heading = mousePos - objectPos;
 
-        Vector2 normal = new Vector2(objectPos.x, objectPos.y + 1f);
+        float distance = heading.magnitude;
 
-        faceX = 0f;
-        faceY = 0f;
+        Vector2 direction = heading / distance;
+        Vector2 normal = new Vector2(0f, 1f);
 
-        float angle = Vector2.Angle(normal, difference);
+        float angle = Vector2.Angle(normal, direction);
 
-        Debug.Log("Angle: " + angle);
+        if (angle <= 45f)
+        {
+            face = 0f;
+        }
+        else if (angle >= 45f && angle <= 135f)
+        {
+            if (mousePos.x > objectPos.x)
+            {
+                face = 1f;
+            }
+            else
+            {
+                face = 3f;
+            }
+        }
+        else if (angle >= 135f)
+        {
+            face = 2f;
+        }
     }
 }
