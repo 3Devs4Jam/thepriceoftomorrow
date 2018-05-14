@@ -22,17 +22,25 @@ public class WeaponRotation : MonoBehaviour
         float distance = heading.magnitude;
 
         Vector2 direction = heading / distance;
-        Vector2 normal = new Vector2(0f, 1f);
+        Vector2 normal = new Vector2(1f, 0f);
 
         float angle = Vector2.Angle(normal, direction);
 
-        if (mousePos.x >= objectPos.x)
+        if (mousePos.x > objectPos.x && mousePos.y > objectPos.y)
         {
-            angle = -angle + 90;
+            // no changes
         }
-        else
+        if (mousePos.x < objectPos.x && mousePos.y > objectPos.y)
         {
-            angle = angle - 90;
+            angle = 180 + angle; // flipped image
+        }
+        if (mousePos.x < objectPos.x && mousePos.y < objectPos.y)
+        {
+            angle = 180 - angle; // flipped image
+        }
+        if (mousePos.x > objectPos.x && mousePos.y < objectPos.y)
+        {
+            angle = -angle;
         }
 
         transform.rotation = Quaternion.Euler(new Vector3(0, 0, angle));
