@@ -6,8 +6,8 @@ public class InputController : MonoBehaviour
 {
 
     public float speed = 3f;
-    public float moveX;
-    public float moveY;
+    private float moveX;
+    private float moveY;
     public float face; // 0 - up, 1 - right, 2 - down, 3 - left
 
     private Animator anim;
