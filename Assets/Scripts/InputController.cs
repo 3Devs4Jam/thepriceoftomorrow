@@ -8,7 +8,7 @@ public class InputController : MonoBehaviour
     public float speed = 3f;
     private float moveX;
     private float moveY;
-    public float face; // 0 - up, 1 - right, 2 - down, 3 - left
+    public float face; // 0 - right, 1 - left
 
     private Animator anim;
 
@@ -79,33 +79,13 @@ public class InputController : MonoBehaviour
         Vector2 mousePos = Camera.main.ScreenToWorldPoint(Input.mousePosition);
         Vector2 objectPos = new Vector2(transform.position.x, transform.position.y);
 
-        Vector2 heading = mousePos - objectPos;
-
-        float distance = heading.magnitude;
-
-        Vector2 direction = heading / distance;
-        Vector2 normal = new Vector2(0f, 1f);
-
-        float angle = Vector2.Angle(normal, direction);
-
-        if (angle <= 45f)
+        if (mousePos.x > objectPos.x)
         {
             face = 0f;
         }
-        else if (angle >= 45f && angle <= 135f)
+        if (mousePos.x < objectPos.x)
         {
-            if (mousePos.x > objectPos.x)
-            {
-                face = 1f;
-            }
-            else
-            {
-                face = 3f;
-            }
-        }
-        else if (angle >= 135f)
-        {
-            face = 2f;
+            face = 1f;
         }
     }
 }

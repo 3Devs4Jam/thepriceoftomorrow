@@ -1,41 +1,15 @@
 fileFormatVersion: 2
-guid: 1e3c4fe318da08343aa87e38386bbd75
+guid: 4eaa04e65a65c8b44a0331604d0a28af
+timeCreated: 1526428884
+licenseType: Free
 TextureImporter:
   fileIDToRecycleName:
-    21300000: robert2_0
-    21300002: robert2_1
-    21300004: robert2_2
-    21300006: robert2_3
-    21300008: robert2_4
-    21300010: robert2_5
-    21300012: robert2_6
-    21300014: robert2_7
-    21300016: robert2_8
-    21300018: robert2_9
-    21300020: robert2_10
-    21300022: robert2_11
-    21300024: robert2_12
-    21300026: robert2_13
-    21300028: robert2_14
-    21300030: robert2_15
-    21300032: robert_0
-    21300034: robert_1
-    21300036: robert_2
-    21300038: robert_3
-    21300040: robert_4
-    21300042: robert_5
-    21300044: robert_6
-    21300046: robert_7
-    21300048: robert_8
-    21300050: robert_9
-    21300052: robert_10
-    21300054: robert_11
-    21300056: robert_12
-    21300058: robert_13
-    21300060: robert_14
-    21300062: robert_15
+    21300000: robert_0
+    21300002: robert_1
+    21300004: robert_2
+    21300006: robert_3
   externalObjects: {}
-  serializedVersion: 5
+  serializedVersion: 4
   mipmaps:
     mipMapMode: 0
     enableMipMap: 0
@@ -75,47 +49,32 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 100
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
-  spriteGenerateFallbackPhysicsShape: 1
+  spritePixelsToUnits: 16
   alphaUsage: 1
   alphaIsTransparency: 1
   spriteTessellationDetail: -1
   textureType: 8
   textureShape: 1
-  singleChannelComponent: 0
   maxTextureSizeSet: 0
   compressionQualitySet: 0
   textureFormatSet: 0
   platformSettings:
-  - serializedVersion: 2
-    buildTarget: DefaultTexturePlatform
+  - buildTarget: DefaultTexturePlatform
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
-    textureCompression: 1
+    textureCompression: 0
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
     overridden: 0
     androidETC2FallbackOverride: 0
-  - serializedVersion: 2
-    buildTarget: Standalone
+  - buildTarget: Standalone
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
-    textureCompression: 1
-    compressionQuality: 50
-    crunchedCompression: 0
-    allowsAlphaSplitting: 0
-    overridden: 0
-    androidETC2FallbackOverride: 0
-  - serializedVersion: 2
-    buildTarget: WebGL
-    maxTextureSize: 2048
-    resizeAlgorithm: 0
-    textureFormat: -1
-    textureCompression: 1
+    textureCompression: 0
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -129,329 +88,59 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 0
-        y: 234
-        width: 54
-        height: 78
+        y: 0
+        width: 16
+        height: 16
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
-      bones: []
-      spriteID: 684ac8a7a8b9595468dca4d4c9cfe18f
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
     - serializedVersion: 2
       name: robert_1
       rect:
         serializedVersion: 2
-        x: 54
-        y: 234
-        width: 54
-        height: 78
+        x: 16
+        y: 0
+        width: 16
+        height: 16
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
-      bones: []
-      spriteID: 46a8d0da1ffd46341b4f9816f8d53544
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
     - serializedVersion: 2
       name: robert_2
       rect:
         serializedVersion: 2
-        x: 108
-        y: 234
-        width: 54
-        height: 78
+        x: 32
+        y: 0
+        width: 16
+        height: 16
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
-      bones: []
-      spriteID: 0cf59bb80bcfa9c44b9fe2839952e4cc
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
     - serializedVersion: 2
       name: robert_3
       rect:
         serializedVersion: 2
-        x: 162
-        y: 234
-        width: 54
-        height: 78
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 652ce62f1436e4f49921bfca0d4e3a5a
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: robert_4
-      rect:
-        serializedVersion: 2
-        x: 0
-        y: 156
-        width: 54
-        height: 78
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 2fb992b2c8611644ca7a6b901bd83c28
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: robert_5
-      rect:
-        serializedVersion: 2
-        x: 54
-        y: 156
-        width: 54
-        height: 78
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 2f34111cb2772e249b1acd0100f97b18
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: robert_6
-      rect:
-        serializedVersion: 2
-        x: 108
-        y: 156
-        width: 54
-        height: 78
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 6e5c9dde47a02e848800ed597214857e
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: robert_7
-      rect:
-        serializedVersion: 2
-        x: 162
-        y: 156
-        width: 54
-        height: 78
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: e601e3c0fd7068c40aa04dd8288d3197
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: robert_8
-      rect:
-        serializedVersion: 2
-        x: 0
-        y: 78
-        width: 54
-        height: 78
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 5983272df69b9c84bbe60b7addf0a454
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: robert_9
-      rect:
-        serializedVersion: 2
-        x: 54
-        y: 78
-        width: 54
-        height: 78
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 59f2319facc147548876a3faab70e781
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: robert_10
-      rect:
-        serializedVersion: 2
-        x: 108
-        y: 78
-        width: 54
-        height: 78
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 11662621d047f984b80e61d7464af850
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: robert_11
-      rect:
-        serializedVersion: 2
-        x: 162
-        y: 78
-        width: 54
-        height: 78
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 39cc23b578f48c04d964a4474fb21d2d
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: robert_12
-      rect:
-        serializedVersion: 2
-        x: 0
+        x: 48
         y: 0
-        width: 54
-        height: 78
+        width: 16
+        height: 16
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
-      bones: []
-      spriteID: 88f7c05d8498dfd45a31602fb6f43b5b
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: robert_13
-      rect:
-        serializedVersion: 2
-        x: 54
-        y: 0
-        width: 54
-        height: 78
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 068379ae2155afa4791187143ea9382a
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: robert_14
-      rect:
-        serializedVersion: 2
-        x: 108
-        y: 0
-        width: 54
-        height: 78
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: c96c04cf6551cf24aadc64bb1c6dfa95
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: robert_15
-      rect:
-        serializedVersion: 2
-        x: 162
-        y: 0
-        width: 54
-        height: 78
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 1cf86b65e4a205d47b23ace1b5c05e21
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
     outline: []
     physicsShape: []
-    bones: []
-    spriteID: 6f1ad82eb6276be47822bab4efca60a6
-    vertices: []
-    indices: 
-    edges: []
-    weights: []
   spritePackingTag: 
   userData: 
   assetBundleName: 
